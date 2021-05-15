@@ -1,0 +1,39 @@
+#llogo{
+margin-top:2%;
+margin-left:7%;
+width:70%;
+
+}
+#imglogo{
+margin-right:2%;
+}
+.findfooter{
+margin-right:2%;
+}
+.Location{
+font-size:17px;
+background-color:rgb(93,93,93);
+color:rgb(210,210,210);
+border: 2px solid rgb(80,80,80);
+max-width:100%;
+border-radius:1px;
+text-align: center;
+outline:none;
+}
+.Location:hover {
+background-color:rgb(80,80,80);
+font-size:19px;
+text-align: center;
+}
+.Loaction:active{
+outline:none;
+background-color:rgb(80,80,80);
+font-size:18px;
+text-align: center;
+}
+.Loaction:visited{
+outline:none;
+background-color:rgb(80,80,80);
+font-size:18px;
+text-align: center;
+}

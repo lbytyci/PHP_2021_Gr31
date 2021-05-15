@@ -1,0 +1,29 @@
+
+
+.pagination {
+    margin-left:30%;
+
+}
+
+.pagination a {
+    color: black;
+	float:left;
+    padding: 8px 17px;
+    text-decoration: none;
+    outline: 1px solid black;
+	border: 1px solid rgb(180,180,180);
+}
+
+.pagination a.active {
+    background-color: rgb(90,90,90);
+    color: white;
+	border: 1px solid rgb(90,90,90);
+    outline: 1px solid black;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: rgb(140,140,140);
+}
+h1{
+   text-align:center;
+}
