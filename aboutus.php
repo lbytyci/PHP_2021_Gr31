@@ -90,7 +90,7 @@ if(isset($_SESSION['username']))
         <p class="title">Team Member</p>
         <p>Studente ne Universitetin e Prishtines</p>
         <p>liresa.ferizaj@student.uni-pr.edu</p>
-        <p><button class="button"><a href="mailto:liresa.ferizaj@student.uni-pr.edu?Subject=Dream%20Travel" >Contact</a></button></p>
+        <p><button class="button"><a href="mailto:liresa.ferizaj@student.uni-pr.edu?Subject=Hug%20The%20World" >Contact</a></button></p>
       </div>
     </div>
 </div>
@@ -104,7 +104,7 @@ if(isset($_SESSION['username']))
         <p class="title">Team Member</p>
         <p>Studente ne Universitetin e Prishtines</p>
         <p style="margin-left:-7px;">sara.haliti@student.uni-pr.edu</p>
-        <p><button class="button"><a href="mailto:sara.haliti@student.uni-pr.edu?Subject=Dream%20Travel" >Contact</a></button></p>
+        <p><button class="button"><a href="mailto:sara.haliti@student.uni-pr.edu?Subject=Hug%20The%20World" >Contact</a></button></p>
       </div>
     </div>
 
@@ -119,7 +119,7 @@ if(isset($_SESSION['username']))
         <p class="title">Team Member</p>
         <p>Studente ne Universitetin e Prishtines</p>
         <p>lirone.bytyci@student.uni-pr.edu</p>
-        <p><button class="button"><a href="mailto:lirone.bytyci@student.uni-pr.edu?Subject=Dream%20Travel" >Contact</a></button></p>
+        <p><button class="button"><a href="mailto:lirone.bytyci@student.uni-pr.edu?Subject=Hug%20The%20World" >Contact</a></button></p>
       </div>
     </div>
   </div>
@@ -133,7 +133,7 @@ if(isset($_SESSION['username']))
         <p class="title">Team Member</p>
         <p>Studente ne Universitetin e Prishtines</p>
         <p>semire.hyseni@student.uni-pr.edu</p>
-        <p><button class="button"><a href="mailto:semire.hyseni@student.uni-pr.edu?Subject=Dream%20Travel" >Contact</a></button></p>
+        <p><button class="button"><a href="mailto:semire.hyseni@student.uni-pr.edu?Subject=Hug%20The%20World" >Contact</a></button></p>
       </div>
     </div> 
   </div>
@@ -146,7 +146,7 @@ if(isset($_SESSION['username']))
         <p class="title">Team Member</p>
         <p>Studente ne Universitetin e Prishtines</p>
         <p>festinaabytyqi@gmail.com</p>
-        <p><button class="button"><a href="mailto:festinabytyqi@gmail.com?Subject=Dream%20Travel" >Contact</a></button></p>
+        <p><button class="button"><a href="mailto:festinabytyqi@gmail.com?Subject=Hug%20The%20World" >Contact</a></button></p>
       </div>
     </div> -->
   </div>
