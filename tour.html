@@ -1,0 +1,386 @@
+﻿<!DOCTYPE html>
+<html >
+    <head>
+        <meta lang="en">
+        <title>Tour</title>
+        <link rel="icon" type="image/jpg" href="images/llogo.jpg">
+        <link rel="stylesheet" href="css-tour.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+              $(".sidebarBtn").click(function(){
+              $(".sidebar").toggleClass('active');
+              $(".sidebarBtn").toggleClass('toggle');
+              });
+              $("#see1").click(function(){
+              $("#australia").slideToggle();//jquery slide
+              $("#see1").text("See less");//jquery set text
+              });
+              $("#see2").click(function(){
+              $("#south").fadeToggle();//jquery fade
+              $("#see2").text("See less");//jquery set text
+              });
+              $("#box1").click(function(){
+                $("#box1").animate({
+                  left:500
+                })
+                $("#box1").animate({
+                  left:-500
+                })
+                $("#box1").animate({
+                  left:0
+                })
+              })
+              $("#box").dblclick(function(){
+                  $("#box").toggle("slow",function(){alert("Korniza 'Australia' u fsheh")});//jquery show/hide dhe callback me alert
+              })
+              $("#europe").click(function(){
+                alert("Text:"+$("#europe").text())//jquery get
+              })
+              $("#btn2").click(function(){
+                $("#lista1").remove()//remove
+              })
+              $("#btn1").click(function(){
+                var li="<li>Tour</li>"
+                $("#lista1").append(li)//add
+              })
+              $("#usa").click(function(){
+                $("#usa").hide("fast");
+              })
+              $("#usa1").click(function(){
+                $("#usa").show("fast");
+              })
+              $("#kontinenti").click(function(){
+                $("#kontinenti").fadeOut("slow");
+              })
+            })
+        </script>
+		<style>
+		#btn1,#btn2{
+		font-size:16px;
+		color:rgb(210,210,210);
+		background-color:rgb(93,93,93);
+		border: 1px solid rgb(80,80,80);
+		max-width:100%;
+		padding:3px;
+		text-align: center;
+        outline:none;
+		}
+		#btn1:hover,#btn2:hover{
+		font-size:17px;
+		background-color:rgb(80,80,80);
+
+		}
+		#btn1:active,#btn2:active{
+		font-size:17px;
+		background-color:rgb(80,80,80);
+
+		}
+		#btn1:visited,#btn2:visited{
+		font-size:17px;
+		background-color:rgb(80,80,80);
+
+		}
+		</style>
+    </head>
+    <body >
+
+
+        <div class="foto1">
+          <div class="sidebar">
+               <ul>
+                  <li><a href="home.php">Home</a></li>
+                   <li id="nenMenu"><a href="tour.html">Tour<span></span></a>
+                    <ul id="nenMenuShow">
+                        <li><a href=#europa>EUROPE</a></li>
+                           <li id="usa1"><a href=#amerikav>NORTH AMERICA</a></li>
+                           <li><a href=#azia>ASIA</a></li>
+                           <li><a href=#afrika>AFRICA</a></li>
+                           <li><a href=#au>AUSTRALIA</a></li>
+                           <li><a href=#amerikaj>SOUTH AMERICA</a></li>
+                       </ul></li>
+                   <li><a href="stats.php">Stats</a></li>
+                   <li><a href="kosova.php">Kosova</a></li>
+                   <li><a href="aboutus.php">About us</a></li>
+                   <li><a href="form1.php">Contact us</a></li>
+                   <li><a href="extra.php">Extras</a></li>
+               </ul>
+               <button class="sidebarBtn">
+                 <span></span>
+               </button>
+           </div>
+            <div class="text1">
+                <span class="korniza" id="kontinenti">
+                    Kontinentet
+                </span>
+            </div>
+        </div>
+
+        <section class="section section-l">
+            <h2><a name="europa" >Europe</a></h2>
+            <p>
+                <br>
+              Home to some of the most prominent and captivating monuments and structures that are also listed as UNESCO world heritage sites, every part of Europe stands tall as a trying testimony of its glorious and disconcerted past. Distinctly divided into three regions- Western Europe, Central Europe, and Eastern Europe- each one is more enchanting that the other for a tourist. What adds to the continent&rsquo;s charm is its diversified geographical bifurcation with the Scottish highlands in the northern parts, Hungarian plains down south, mountains in the Central Europe, and highlands in the southern area.
+
+              You can start your day at delightful Italy where you visit Rome to know why it wasn&rsquo;t built in a day. The afternoon can be spent at the rather chivalrous London where you have the London Eye, St. Paul&rsquo;s Cathedral, and its other lovely tourist spots waiting to greet you. Spend the evening by the River Seine in Paris and enjoy the starlit night right under the Eiffel Tower, celebrating love in the City of Love. Call this a teaser of the thrill the European continent has to offer.<!--^rsquo; apostrof nga ana e djatht-->
+                <br><br>
+              Some of the most loved tourist places of the continent other than those mentioned above, include Moscow in Russia, Berlin in Germany, Budapest in Hungary, Madrid in Spain and the Swiss countryside. This continent is also known for its world-renowned cuisine, so if you’re a food lover, this place is even more enticing.
+              <br>
+			  <a href="./pdf/Europe.pdf" >See more</a>
+            </p>
+
+        </section>
+   <div class="foto2">
+            <div class="text1">
+                <span class="korniza" id="europe">
+                    Europe
+                </span>
+            </div>
+   </div>
+        <section class="section section-d">
+            <h2><a name="amerikav">North America</a></h2>
+            <p>
+              United States of America is a country that has 50 states out of which many are famous either for their tall buildings or ancient monuments or the lifestyle they offer. Chicago is known for its influential architecture and on the west coast, Los Angeles' Hollywood is known for the film industry. Las Vegas for Casinos, Newyork city for Statue of Liberty and Miami for beaches is not unknown to the world out there.
+               <br><br>
+              America tourism has become the largest industry that serves millions of international and domestic tourists yearly. And the industry has boomed a lot in these recent years. Tourists have been continuously visiting the US to see its natural wonders, cities, historic landmarks, and entertainment venues. Americans are well known for their recreational and vacational areas.            </p>
+
+              <a href="./pdf/AMERIKA-VERIORE-DHE-QËNDRORE.pdf" target="_blank">See more</a>
+        </section>
+
+   <div class="foto3">
+            <div class="text1">
+                <span class="korniza" id="usa">
+                    North America
+                </span>
+            </div>
+        </div>
+
+        <section class="section section-l">
+            <h2><a name="azia">Asia</a></h2>
+            <p>
+              <br>
+              Asia is too massive and diverse to conceptualize as a single digestible travel "destination". Even defining the borders of this continent is difficult - from the mountains around the Black Sea in the west, to the snow fields of Siberia in the east, there are more people and cities in Asia than outside of it.
+              <br><br>
+              The world's highest point, Mount Everest, lies within Asia along the border of Tibet and Nepal soaring 8,848m (29,028 ft) above sea level. Its lowest point is the Dead Sea, located at the meeting points of Israel, the Palestinian Territories, and Jordan, whose surface is 400m (1,312 ft) below sea level. Asia's longest river is the Yangtze, which runs 6,300km (3,915 miles) through China, all the way from the high Tibetan Plateau to Shanghai. Its largest lake is the 386,400km² (149,200 square mile) Caspian Sea, which is surrounded by several Central Asian nations.
+              <br><br>
+              Travel options range widely, from the desert ruins and modern mega-malls of the Middle East to the magnificent ancient monuments in South Asia, and from the beach bungalows and jungle treks of Southeast Asia to the mega-cities and technology capitals of East Asia. Find out more about regions, destinations, and itineraries below. </p>
+ <br>
+              <a href="./pdf/Asia.pdf" target="_blank">See more</a>
+            </p>
+        </section>
+
+<div class="foto4">
+            <div class="text1">
+                <span class="korniza">
+                  Asia
+                </span>
+            </div>
+        </div>
+        <section class="section section-d">
+            <h2><a name="afrika">Africa</a></h2>
+            <p>
+                <br>
+              Africa has 54 sovereign countries—the most on any continent—and is the second largest continent in terms of both land area and population. Africa is bounded by the Mediterranean Sea to the north, by the Atlantic Ocean to the west, by the Red Sea to the northeast, and by the Indian Ocean to the southeast. Africa is a vast continent spanning over 8,000km (5,000 mi) north to south and 7,500km (4,800 mi) east to west (not including islands) and contains a wide array of peoples, skin colours, religions, and cultures. Africa contains the world's longest river—the 6,650km long (4,100 mi) Nile River running from Burundi to Egypt—while the Congo River in the DRC is the second largest in terms of discharge as well as the deepest with a depth of over 230m (750 ft) in some spots. Tanzania's Mount Kilimanjaro is the world's tallest free-standing mountain at 5,890m (19,340 ft). Djibouti's Lake Assal is the second lowest point on Earth, the saltiest lake outside Antarctica, and one of the hottest places on Earth.
+              <br><br>
+While the first activity most people associate with Africa is safaris, there are endless possibilities for adventure. You can purchase crafts in markets, venture into the Sahara with a Tuareg caravan, visit pygmy villages, hike through jungle to watch gorillas, relax on tropical islands in the Indian Ocean, experience arguably the world's best wildlife safaris, snack on exotic treats, travel down a river in a dugout "pirogue", travel across savannah on a colonial-era railway, and much more.
+</p>
+<br>
+<a href="./pdf/Afrika.pdf" target="_blank">See more</a>
+    </section>
+    <div class="foto5">
+                <div class="text1">
+                    <span class="korniza">
+                      Africa
+                    </span>
+                </div>
+            </div>
+            <section class="section section-l">
+                <h2><a name="au">Australia</a></h2>
+                <p>
+                    <br>
+                  Australia is world famous for its natural wonders and wide open spaces, its beaches, deserts, "the bush", and "the Outback".
+      Australia is one of the world's most highly urbanised countries; it is well known for the attractions of its large cities such as Sydney, Melbourne, Brisbane, and Perth.
+
+      Australia is the sixth-largest country by land area. It is comparable in size to the 48 contiguous United States. Australia is bordered to the west by the Indian Ocean, and to the east by the South Pacific Ocean. The Tasman Sea lies to the southeast, separating it from New Zealand, while the Coral Sea lies to the northeast. Papua New Guinea, East Timor and Indonesia are Australia's northern neighbours, separated from Australia by the Arafura Sea and the Timor Sea.
+      <br><br>
+      Most attractions in Australia remain open year-round, some operating at a reduced frequency or shorter hours during the off-peak season.
+Salaried Australians have four weeks of annual leave and school children in the major population centres have January as a long break. Domestic tourism is strongest during January and the Easter school holidays.
+                </p>
+                <div id="australia">
+                  <br><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                </div>
+                  <button id="see1" >Show More</button>
+            </section>
+            <div class="foto6">
+                        <div class="text1">
+                            <span class="korniza" id="box">
+                            Australia
+                          </span>
+                        </div>
+                    </div>
+<section class="section section-d">
+        <h2><a name="amerikaj">South America</a></h2>
+            <p>
+                <br><br>
+                          Australia is world famous for its natural wonders and wide open spaces, its beaches, deserts, "the bush", and "the Outback".
+              Australia is one of the world's most highly urbanised countries; it is well known for the attractions of its large cities such as Sydney, Melbourne, Brisbane, and Perth.
+              <br>
+              Australia is the sixth-largest country by land area. It is comparable in size to the 48 contiguous United States. Australia is bordered to the west by the Indian Ocean, and to the east by the South Pacific Ocean. The Tasman Sea lies to the southeast, separating it from New Zealand, while the Coral Sea lies to the northeast. Papua New Guinea, East Timor and Indonesia are Australia's northern neighbours, separated from Australia by the Arafura Sea and the Timor Sea.
+              <br>
+              Most attractions in Australia remain open year-round, some operating at a reduced frequency or shorter hours during the off-peak season.
+            Salaried Australians have four weeks of annual leave and school children in the major population centres have January as a long break. Domestic tourism is strongest during January and the Easter school holidays.
+                        </p>
+
+                        <div id="south">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                        </div>
+                          <button id="see2">Show More</button>
+                    </section>
+
+                    <div class="foto7">
+
+                                <div class="text1">
+                                    <span class="korniza" id="box1">
+                                    South America
+                                  </span>
+                                </div>
+                            </div>
+
+                            <section class="section section-l" id="fshij">
+                                    <h2>Tour</h2>
+
+                                          <br>
+                                          <dl>
+                                            <dt>Tour</dt>
+                                          <dd>A journey for pleasure in which several different places are visited.</dd>
+                                          <dt>Tour</dt>
+                                          <dd>a long journey including the visiting of a number of places in sequence, especially with an organized group led by a guide.</dd>
+                                          <dt>Tour</dt>
+                                          <dd>Turne,vizit&euml;,udh&euml;tim,ekskursion,vizit&euml; turistike</dd>
+                                          <br><br></dl>
+                                          <button id="btn1">Shto fjalen "tour" ne liste</button>
+                                          <button id="btn2">Fshije te gjithe listen</button>
+                                          <ol id="lista1">
+                                          </ol>
+
+                                                </section>
+                            <div class="foto8">
+                        <canvas ></canvas>
+                              <script src="javascript/canvas.js" ></script>
+                                     <div class="text1" style="margin-top:-16%;">
+                                         <span class="korniza">
+                                             Tour
+                                         </span>
+                                     </div>
+
+                                     <section class="section section-d" >
+                         <footer >
+
+
+                                          <div style="margin-left:8%;margin-top:4%;width:70%;">
+                                              <p><strong>Where to find us:</strong></p>
+
+                                              <address><img src="images/location.png" alt="Address" ><span > Kodra e diellit,St.&#199;ajupi 25,10000 Prishtin&#235;,Republika e Kosov&#235;s</span></address><br>
+                                                <p><img src="images/telephone.png" alt="Telephone"><span class="findfooter"> +386(49)280-103 </span>
+                                                  <img src="images/fax.png" alt="Fax"><span> +377(44)321-645 </span></p>
+                                              <p><a href="mailto:info@travel.com?Subject=Dream%20Travel" style="text-decoration:none;color:white;"><img src="images/email.png" alt="Email"><span class="findfooter"> info@travel.com </span></a>
+                                                 <img src="images/web.png" alt="Web"><span> www.travel-dream.com </span></p>
+                                           </div>
+
+                                       	<!-- Data -->
+
+                                           <div id="date" style="float:right;margin-top:-14%;margin-right:5%;">
+                                           <canvas id="canvas"width="200" height="200"></canvas></div>
+
+<script>
+var canvas=document.getElementById('canvas');
+var ctx=canvas.getContext('2d');
+ctx.strokeStyle='#28d1fa';
+ctx.lineWidth=8;
+ctx.lineCap='round';
+ctx.shadowBlur=10;
+ctx.shadowColor='#28d1fa';
+
+function degToRad(degree){
+var factor=Math.PI/180;
+return degree*factor;
+}
+
+function renderTime(){
+var now= new Date();
+var today=now.toDateString();
+var time= now.toLocaleTimeString();
+var hours= now.getHours();
+var minutes= now.getMinutes();
+var seconds=now.getSeconds();
+var milliseconds=now.getMilliseconds();
+var newSeconds=seconds+(milliseconds/1000);
+
+gradient=ctx.createRadialGradient(100,100,2,100,100,125);
+gradient.addColorStop(0,'#282e34');
+gradient.addColorStop(1,'#282e34');
+ctx.fillStyle=gradient;
+//ctx.fillStyle='333333';
+ctx.fillRect(0,0,400,400);
+
+ctx.beginPath();
+ctx.arc(100,100,85,degToRad(270),degToRad((hours*15)-90));
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(100,100,70,degToRad(270),degToRad((minutes*6)-90));
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(100,100,55,degToRad(270),degToRad((newSeconds*6)-90));
+ctx.stroke();
+
+ctx.font="10px Arial bold";
+ctx.fillStyle="#28d1fa";
+ctx.fillText(today,65,100);
+
+ctx.font="8px Arial";
+ctx.fillStyle="#28d1fa";
+ctx.fillText(time,65,115);
+
+}
+setInterval(renderTime,40);
+</script>
+
+
+                                           <nav id="llogo">
+                                               <a href="https://vimeo.com/user9435667" target="_blank"><img src="images/vimeo.png" alt="Vimeo" id="imglogo"></a>
+                                               <a href="https://twitter.com/dreamtravelma" target="_blank"><img src="images/twitterlogo.png" alt="Twitter" id="imglogo"></a>
+                                               <a href="https://web.facebook.com/www.dreamtravel.com.au" target="_blank"><img src="images/facebooklogo.png" alt="Facebook" id="imglogo"></a>
+                                               <a href="https://www.tumblr.com/tagged/dream-travel" target="_blank"><img src="images/tumblrlogo.png" alt="Tumblr" id="imglogo" ></a>
+                                               <a href="https://plus.google.com/+dreamworldtravel" target="_blank"><img src="images/googlepluss.png" alt="G+" id="imglogo"></a>
+                                               <a href="https://www.instagram.com/dreaming_travel/" target="_blank"><img src="images/instagramlogo.png" alt="Insta" id="imglogo"></a>
+                                               <a href="https://www.youtube.com/channel/UCrBPPGyR_7aOd882VpMRkRg" target="_blank"><img src="images/youtubelogo.png" alt="YT" id="imglogo"></a>
+                                               <a href="https://www.pinterest.com/explore/family-travel/" target="_blank"><img src="images/pinterestlogo.png" alt="P" id="imglogo"></a>
+                                       	</nav>
+<p><output id="result" style="display:none"></output></p>
+  <button onclick="minutat()" id="btn1"  style="float:left;margin-top:-4%;margin-left:-6%;">Minutat</button>
+  <p id="shfaq"></p>
+  <p><output id="minutat"></output></p>
+  <script>
+   var worker = new Worker('javascript/worker.js');
+   worker.onmessage = function (event) {
+   document.getElementById('result').textContent = event.data;
+   };
+   function minutat(){
+     worker.terminate();
+     document.getElementById('minutat').textContent = document.getElementById('result').textContent;
+     document.getElementById('shfaq').textContent = "Quality time you spent on our page!(on minutes)";
+   }
+  </script>
+                                       </footer>
+                                     </section>
+
+    </body>
+</html>
