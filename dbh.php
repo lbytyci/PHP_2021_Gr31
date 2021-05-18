@@ -4,5 +4,5 @@ define("username","root");
 define("pass"," ");
 define("name","dbtest");
 
-$conn = new mysqli(servername,user,pass,name);
+$conn = new mysqli(servername,username,pass,name);
 ?>
