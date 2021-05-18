@@ -48,7 +48,7 @@ font-size:80px;
 opacity: 0.5;
 transition:ease-in-out;
 transition-duration:0.2s;
-box-shadow
+/* box-shadow */
 }
 #logo:hover{
 transition:ease-in-out;
