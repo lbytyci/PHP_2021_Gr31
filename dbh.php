@@ -1,6 +1,6 @@
 <?php
 define("servername", "localhost");
-derfine("username","root");
+define("username","root");
 define("pass"," ");
 define("name","dbtest");
 
