@@ -143,7 +143,7 @@ if(isset($_SESSION['username']))
 <!--Formulari-->
 <?php  include('kthe3.php');?>
 <form action="<?php $_SERVER['PHP_SELF'];?>" method="post"  >
-   <label> Pace : </label>
+   <label> Place : </label>
      <select class="input" name="Place" <?php if(!empty($PlaceErr)) { ?> autofocus <?php } ?> >
      <option value="1" ></option>
      <option value="2" <?php if($Place == "2") {?> selected <?php } ?>>Albania</option>
