@@ -91,7 +91,7 @@ $Result='';
    if(empty($PlaceErr) and empty($TimeErr) and empty($DaysErr) and empty($PeopleErr) and empty($EmailErr) and empty($QuesErr) and empty($HotelErr))
    {
 	   if(!empty($_POST["email"]) and !empty($_POST["Ques"])) {
-	   $to = 'brikena.ba@gmail.com';
+	   $to = 'lferizaj74@gmail.com';
       $subject = 'Question Website From:'.$Email;
 	  $message= $Ques;
 	  $headers = "From:" . $Email;
