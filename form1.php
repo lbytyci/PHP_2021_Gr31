@@ -103,7 +103,7 @@ if(isset($_SESSION['username']))
   <fieldset>
    <legend>Subscribe to our Newsletter</legend>
 
-    <p><label>Your name:</label><input type="text" id="name" class="input" name="Fname"  placeholder="Write your name " value="<?php echo $Fname; ?>" autocomplete="on" <?php if(!empty($nameErr)) { ?> autofocus <?php } ?>>    <!-- perdorimi autocomplete faza2-->
+    <p><label>Your name:</label><input type="text" id="name" class="input" name="Fname"  placeholder="Write your name " value="<?php echo $Fname; ?>" autocomplete="on" <?php if(!empty($nameErr)) { ?> autofocus <?php } ?>>   
      <span style="font-size:12px;color:rgb(190,0,0);margin-bottom:-6px;margin-left:25%;"><?php echo $nameErr;?></span></p>
 
     <p><label >Email: </label><input type="text" id="email" class="input" name="Femail" value="<?php echo $Femail; ?>" placeholder="ex: someone@hotmail.com" autocomplete="on"  <?php if(!empty($emailErr)) { ?> autofocus <?php } ?>>  <!--perdorimi i riquired faza2-->
