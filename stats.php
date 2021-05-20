@@ -13,7 +13,7 @@ session_start();
   <header style="margin-top:-7px;">
     <div id="hf">
     <div class="menu">
-      <h3 id="logo">HUG THW WORLD</h3 >
+      <h3 id="logo">HUG THE WORLD</h3 >
       <nav>
           <ul>
 						<li><a href="home.php">Home</a></li>
