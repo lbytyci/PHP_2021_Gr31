@@ -162,7 +162,7 @@ session_start();
                <input type="tel" name="FDphone" class="input" value="<?php echo $FDphone; ?>" <?php if (!empty($phoneErr)) { ?> autofocus <?php } ?>>
             </p>
 
-            <!--perdorimi i pattern per te kontrolluar formatin e pranimit te dhenave per kete input faza2-->
+            <!--perdorimi i pattern per te kontrolluar formatin e pranimit te dhenave per kete input -->
 
             <p>
                <label>Birthday</label><br>
