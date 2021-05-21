@@ -233,7 +233,7 @@ session_start();
             <textarea name="FDexplorer" id="text" placeholder="Write here ..." rows="10" cols="20" value="<?php echo $FDexplorer; ?>" <?php if (!empty($explorerErr)) { ?> autofocus <?php } ?>></textarea><br>
             <p>
                <input type="submit" value="Send" name="submit" class="submit" style="margin-right:10%;">
-               <!--mbishkrimi i metodes me te cilen do te percillen te dhenat ne server/database permes formmethod faza2-->
+               <!--mbishkrimi i metodes me te cilen do te percillen te dhenat ne server/database permes formmethod -->
                <input type="reset" value="Reset" class="submit" style="margin-right:2%;">
             </p>
 
