@@ -31,7 +31,7 @@
             $_COOKIE['my_login'] = $_GET['login'];
             $GLOBALS['b_match'] = false;
         }
-        echo "Welcome " . $_COOKIE['my_login'] . "!";
+        //echo "Welcome " . $_COOKIE['my_login'] . "!";
 
         if(isset($_COOKIE['my_guess'])){
             echo "</br>";
@@ -40,9 +40,8 @@
             }else {
                 echo "Please, give me numeric values! :)" . ".</br>";
             }
-
-
-            //echo "The random is " . $_COOKIE['my_rand'] . ".</br>";
+        
+            #echo "The random is " . $_COOKIE['my_rand'] . ".</br>";
             compare_two_numbers($_COOKIE['my_guess'], $_COOKIE['my_rand']);
             echo "</br>";
         } else {

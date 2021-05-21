@@ -185,7 +185,6 @@ session_start();
                <!--Perdorimi i enitetit-->
                <input list="Vendet" name="FDvendi" class="input" value="<?php echo $FDvendi; ?>">
                <datalist id="Vendet">
-                  <!-- Perdorimi i datalist faza2-->
                   <option value="USA">
                   <option value="Kosova">
                   <option value="France">
@@ -233,7 +232,7 @@ session_start();
             <textarea name="FDexplorer" id="text" placeholder="Write here ..." rows="10" cols="20" value="<?php echo $FDexplorer; ?>" <?php if (!empty($explorerErr)) { ?> autofocus <?php } ?>></textarea><br>
             <p>
                <input type="submit" value="Send" name="submit" class="submit" style="margin-right:10%;">
-               <!--mbishkrimi i metodes me te cilen do te percillen te dhenat ne server/database permes formmethod faza2-->
+               <!--mbishkrimi i metodes me te cilen do te percillen te dhenat ne server/database permes formmethod -->
                <input type="reset" value="Reset" class="submit" style="margin-right:2%;">
             </p>
 

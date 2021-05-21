@@ -113,7 +113,7 @@ if(isset($_SESSION['username']))
 
 
   <div class="column">
-    <div class="card" style="margin-top:-55px;">
+    <div class="card" style="margin-top:-40px;">
       <img src="images/Lirone.jpg" style="width:100%">
       <div class="container">
         <h2>Lironë Bytyçi</h2>
@@ -127,7 +127,7 @@ if(isset($_SESSION['username']))
 
 
   <div class="column">
-    <div class="card" style="margin-top:-55px;">
+    <div class="card" style="margin-top:-40px;">
       <img src="images/Semire2.jpg" style="width:100%">
       <div class="container">
         <h2>Semire Hyseni</h2>
