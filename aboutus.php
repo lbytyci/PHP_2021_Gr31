@@ -16,6 +16,7 @@ session_start();
 function change(){
 var k=new Date();
 var d= k.getHours();
+	
 if (d<9)
 {
  document.getElementById("p").style.backgroundImage="url('images/back3.png')";
@@ -138,17 +139,7 @@ if(isset($_SESSION['username']))
     </div> 
   </div>
 
- <!-- <div class="column">
-    <div class="card">
-      <img src="images/festa.jpg" style="width:100%">
-      <div class="container">
-        <h2>Festin&euml; Byty&ccedil;i</h2>
-        <p class="title">Team Member</p>
-        <p>Studente ne Universitetin e Prishtines</p>
-        <p>festinaabytyqi@gmail.com</p>
-        <p><button class="button"><a href="mailto:festinabytyqi@gmail.com?Subject=Hug%20The%20World" >Contact</a></button></p>
-      </div>
-    </div> -->
+
   </div>
 </div> 
 <br><br><br>
