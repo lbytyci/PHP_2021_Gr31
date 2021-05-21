@@ -202,18 +202,7 @@ $meny = array("home.php","tour.html","stats.php","kosova.php","aboutus.php","for
   <area shape="rect" coords="355,130,462,299" alt="Afrika" href="tour.html#afrika" style="outline:none;cursor:pointer;">
   <area shape="rect" coords="625,243,696,288" alt="Australia" href="tour.html#au" style="outline:none;cursor:pointer;">
 </map>
-<!--Formulari -->
-<?php  include('email.php');?>
-  <form  action="<?php $_SERVER['PHP_SELF'];?>" method="POST" ><fieldset class="fieldset">
 
-<input type="text" name="Hname" class="formhome" value="<?php echo $Hname; ?>" placeholder="Your Name" <?php if(!empty($nameErr)) { ?> autofocus <?php } ?>><br>
-<span style="font-size:12px;color:rgb(190, 0, 0);margin-bottom:6px;margin-left:4%;" ><?php echo $nameErr;?></span>
-<input type="email" name="Hemail" class="formhome" value="<?php echo $Hemail; ?>" placeholder="Email:example@gmail.com" <?php if(!empty($emailErr)) { ?> autofocus <?php } ?>><br>
-<span style="font-size:12px;color:rgb(190, 0, 0);margin-bottom:6px;margin-left:4%;"> <?php echo $emailErr;?></span>
-<textarea name="Hfeedback"  id="write" class="formhome" placeholder="What is your opinion about this page" rows="6" <?php if(!empty($feedbackErr)) { ?> autofocus <?php } ?>><?php echo $Hfeedback; ?></textarea>
-<span style="font-size:12px;color:rgb(190, 0, 0);margin-top:-7%;margin-left:4%;"><?php echo $feedbackErr;?></span>
-<br>
-<input type="Submit"  value="Submit" name="submit" class="submit"></fieldset></form><br>
 <div>
   <h3>Login Section</h3>
   <p>Members only</p>
@@ -221,6 +210,10 @@ $meny = array("home.php","tour.html","stats.php","kosova.php","aboutus.php","for
 </div>
 </div>
 </section>
+</br> </br></br> </br>
+</br> </br>
+</br> </br>
+
 <section>
 <!--Quotes-->
 <br><br>
