@@ -14,7 +14,7 @@ $login->ShfaqPermbajtjen();
 <title>Login</title>
 </head>
 <body>
-<h1 align="center" id="logo">Dream Travel</h1>
+<h1 align="center" id="logo">Hug The World</h1>
 <div class="login">
 <h1 align="center" style="background-color:rgba(255, 255, 255, 0);font-family:'Script MT Bold'; opacity:0.6;color:black">Welcome</h1>
 <form action="" method="post" style="text-align:center; background-color:rgba(255, 255, 255, 0);opacity:0.7;">

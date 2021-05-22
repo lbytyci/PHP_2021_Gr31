@@ -111,21 +111,9 @@ fclose($file);
 
 
 
-
-
-
-
-
 </table>
 
 </form>
-
-
-
-
-
-
-
 
 
 

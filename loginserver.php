@@ -1,6 +1,6 @@
 
 <?php
-include("loginserver.php"); // Include loginserv for checking username and password
+include("loginserv.php"); // Include loginserv for checking username and password
 ?>
  
 <!doctype html>

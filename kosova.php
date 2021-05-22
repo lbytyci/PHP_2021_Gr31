@@ -362,7 +362,7 @@ restaurant with extremely large garden directly at the fish farm is just beautif
                 <a href="https://www.google.com/search?tbm=isch&sa=1&ei=4looWtKZFYLWkwWP2Kb4Ag&q=trofta+istog&oq=trofta+istog&gs_l=psy-ab.3...35719.37826.0.37988.12.8.0.0.0.0.0.0..0.0....0...1c.1.64.psy-ab..12.0.0....0.-rvbKhTC1as" target="_blank">Click for more photos</a>
                 </td>
                 <td>
-                    <img src="images/trofta.jpg" alt="Trofta" style="width:250px;height:200px;">
+                    <img src="images/trofta.png" alt="Trofta" style="width:250px;height:200px;">
                 </td>
             </tr>
         </table> </section><br /><br /><br />
